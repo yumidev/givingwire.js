@@ -1,14 +1,14 @@
 {
-  "name": "catarse.js",
+  "name": "givingwire.js",
   "version": "1.0.37",
   "author": "Diogo Biazus",
   "contributors": [
     {
-      "name": "Vinícius Andrade",
-      "email": "vchavesster@gmail.com"
+      "name": "Yumi Ko",
+      "email": "yumi.ko.cheers@gmail.com"
     }
   ],
-  "description": "Catarse JS components",
+  "description": "GivingWire JS components",
   "devDependencies": {
     "babel-core": "6.8.0",
     "babel-eslint": "^7.1.1",
