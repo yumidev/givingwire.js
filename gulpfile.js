@@ -111,10 +111,10 @@ gulp.task('dist', function(done){
     .pipe(buffer())
     .pipe(sourcemaps.init({loadMaps: true}))
     .pipe(sourcemaps.write())
-    .pipe(rename('catarse.js'))
+    .pipe(rename('givingwire.js'))
     .pipe(gulp.dest('dist'))
     .pipe($.if(!argv.fast, uglify()))
-    .pipe(rename('catarse.min.js'))
+    .pipe(rename('givingwire.min.js'))
     .pipe(gulp.dest('dist'))
     .on('end', done);
 });
